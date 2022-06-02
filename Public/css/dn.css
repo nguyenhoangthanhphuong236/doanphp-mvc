@@ -1,0 +1,109 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #CCCCCC;
+}
+a {
+color: #00bd00;
+}
+* {
+box-sizing: border-box;
+}
+.register {
+width: 500px;
+padding: 16px;
+margin: 0 auto;
+background-color: white;
+}
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+.submit {
+background-color: #0900bd;
+color: white;
+padding: 15px 18px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+.submit:hover {
+opacity: 1;
+}
+.login {
+background-color: #ffffff;
+text-align: center;
+}
+h1 {
+	color: red;
+}
+html,body{
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+.icon span{
+font-size: 30px;
+margin-right: 10px;
+color: #000;
+}
+
+.icon span:hover{
+color: #FFCCFF ;
+cursor: pointer;
+}
+.hotline {
+	padding-top: 10px;
+}
+.dk {
+	padding-top: 10px;
+}
+.dk a {
+	color: #000;
+}
+.thanhheader {
+	background: #CCCCCC;
+}
+.thanhmenu {
+	margin-top: 70px;
+}
+.footer {
+	background: #CCCCCC;
+	margin-top: 30px;
+}
+.footer-header p {
+	margin-top: 20px;
+}
+.anhlogo{
+	margin-top: 40px;
+	margin-left: 150px;
+	width: 400px;
+	height: 300px;
+}
+.text-shadow{
+	margin-top: 40px;
+	margin-left: 50px;
+	font-size: 20px;
+}
+video {
+	margin-top: 5px;
+	margin-left: 25px;
+}
+.vid{
+	margin-top: 20px;
+	margin-left: 25px;
+}

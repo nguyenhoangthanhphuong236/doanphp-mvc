@@ -1,0 +1,198 @@
+html,body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+    .icon span{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #000;
+    }
+    
+    .icon span:hover{
+    color: #FFCCFF ;
+    cursor: pointer;
+    }
+    .hotline {
+        padding-top: 10px;
+    }
+    .dk {
+        padding-top: 10px;
+    }
+    .dk a {
+        color: #000;
+    }
+    .thanhheader {
+        background: #CCCCCC;
+    }
+    .thanhmenu {
+        margin-top: 70px;
+    }
+    .row1 {
+        margin-top: 30px;
+    }
+    video {
+        margin-top: 5px;
+    }
+    .taobang {
+        background: #FF9966;
+    }
+    .tieude {
+        line-height: 20px;
+        letter-spacing: 2px;
+        padding: 0 0 8px 0;
+        display: inline-block;
+        border-bottom: 2px solid #000;
+        margin-top: 30px;
+        margin-left: 250px;
+    }
+    .box {    
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 5px #555; 
+    }	 
+    .box img {     
+        width: 100%;     
+        height: auto;
+    }			 
+    .box .box-heading {
+        width: 90%;
+        position: absolute;
+        bottom: 25px;     
+        left: 5%;     
+        background: rgba(7, 185, 244, 0.6);     
+        padding: 10px 60px 10px 25px;     
+        color: #fff;     
+        transition: all 0.3s ease 0s; 
+    }			 
+    .box:hover .box-heading {    
+        left: 100%; 
+    }	 
+    .box .box-heading:after {        
+        width: 40px;     
+        height: 40px;     
+        line-height: 40px;     
+        position: absolute;     
+        top: 13px;     
+        right: 11px;          
+        font-size: 30px;     
+        color: #fff;     
+        text-align: center; 
+    }	 
+    .box .title {     
+        margin: 0;     
+        font-size: 18px;     
+        font-weight: bold; 
+    }
+    .box .post {
+        display: block;
+        font-size: 14px;    
+        color: #fff;          
+        margin-top: 5px;
+    }
+    .box .boxContent {     
+        width: 100%;     
+        height: 100%;     
+        position: absolute;     
+        top: 0;     
+        left: -100%;     
+        padding: 30px 35px;     
+        background: rgba(7, 185, 244, 0.8);     
+        transition: all 0.3s ease 0s; 
+        padding: 10px;
+    }	 
+    .box:hover .boxContent {     
+        left: 0; 
+    }	 
+    .box .description {     
+        font-size: 15px;     
+        color: #fff;     
+        line-height: 25px; 
+    }
+    @media only screen and (max-width: 990px) { 
+        .box {
+            margin-bottom: 20px;
+        } 
+    }				 
+    @media only screen and (max-width: 479px) {
+        .box .boxContent { 
+            padding: 10px;
+        } 
+    }
+    .box .cart {     
+        display: inline-block;     
+        padding: 10px 20px;     
+        background: #20211c;     
+        font-size: 14px;     
+        font-weight: 700;     
+        color: #fff;     
+        margin-top: 20px;     
+        transition: all 0.3s ease 0s; 
+    }	 
+    .box .cart:hover {     
+        text-decoration: none;     
+        background: #fff;    
+        color: #3fc9f7; 
+    }	 
+    .box .cart i {     
+        font-size: 20px;     
+        font-weight: 700;
+        margin-left: 10px; 
+    }
+    .card img {
+        padding: 10px;
+        transform: scale(1);
+        transition: all 0.5s;
+    }
+    .card img:hover {
+        transform: scale(1.1);
+    }
+    .TĐ {
+        line-height: 20px;
+        letter-spacing: 2px;
+        padding: 0 0 15px 0;
+        display: inline-block;
+        border-bottom: 2px solid #000;
+        margin-top: 30px;
+        margin-left: 350px;
+    }
+    .footer {
+        background: #CCCCCC;
+    }
+    .footer-header p {
+        margin-top: 20px;
+    }
+    .container {
+        margin-top: 30px;
+    }
+    .old-price {
+        display: block;
+        color: #ADADAD;
+        font-size: 1.07143em;
+        margin-top: 7px;
+    }
+    span.discount {
+        color: #FE9705;
+    }
+    .special-price {
+        display: block;
+        color: #FE9705;
+        font-size: 30px;
+        margin-top: 7px;
+    }   
+    .nho input{
+    width: 30px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+    }
+    video {
+        margin-top: 5px;
+    }
+    .ykien {
+        padding-top: 20px;
+    }
+    .anhnen {
+        background-image: url('https://anhdepblog.com/wp-content/uploads/2018/03/hinh-nen-mau-hong-12.jpg');
+    }
