@@ -91,7 +91,7 @@
                             <div class="item-column hoverimage">
                                 <img class="image" src="<?php echo $product->image; ?>" / width="85%" height="150px">
                                 <div class="ten-item-column">
-                                    <a href="single.php?id=<?php echo $product->id; ?>"><?php echo $product->name; ?></a>
+                                    <a href="<?php echo url_pattern('homeController', 'single', $product->id); ?>"><?php echo $product->name; ?></a>
                                 </div>
                                 <p class="gia"><?php echo str_replace(',', '.', number_format($product->price)); ?>đ</p>
                                 <a class="btn btn-default" href="order.php?id=<?php echo $product->id; ?>">Đặt hàng</a>
@@ -148,7 +148,7 @@
                                 <div class="item-column hoverimage">
                                     <img class="image" src="<?php echo $product->image; ?>" / width="85%" height="150px">
                                     <div class="ten-item-column">
-                                        <a href="single.php?id=<?php echo $product->id; ?>"><?php echo $product->name; ?></a>
+                                        <a href="<?php echo url_pattern('homeController', 'single', $product->id); ?>"><?php echo $product->name; ?></a>
                                     </div>
                                     <p class="gia"><?php echo str_replace(",", ".", number_format($product->price)); ?>đ</p>
                                     <a class="btn btn-default" href="order.php?id=<?php echo $product->id; ?>">Đặt hàng</a>
@@ -205,7 +205,7 @@
                                 <div class="item-column hoverimage">
                                     <img class="image" src="<?php echo $product->image; ?>" / width="85%" height="150px">
                                     <div class="ten-item-column">
-                                        <a href="single.php?id=<?php echo $product->id; ?>"><?php echo $product->name; ?></a>
+                                        <a href="<?php echo url_pattern('homeController', 'single', $product->id); ?>"><?php echo $product->name; ?></a>
                                     </div>
                                     <p class="gia"><?php echo str_replace(",", ".", number_format($product->price)); ?>đ</p>
                                     <a class="btn btn-default" href="order.php?id=<?php echo $product->id; ?>">Đặt hàng</a>
@@ -256,7 +256,7 @@
                                 <div class="item-column hoverimage">
                                     <img class="image" src="<?php echo $product->image; ?>" / width="85%" height="150px">
                                     <div class="ten-item-column">
-                                        <a href="single.php?id=<?php echo $product->id; ?>"><?php echo $product->name; ?></a>
+                                        <a href="<?php echo url_pattern('homeController', 'single', $product->id); ?>"><?php echo $product->name; ?></a>
                                     </div>
                                     <p class="gia"><?php echo str_replace(",", ".", number_format($product->price)); ?>đ</p>
                                     <a class="btn btn-default" href="order.php?id=<?php echo $product->id; ?>">Đặt hàng</a>
@@ -286,7 +286,7 @@
                     </h2>
                 </div>
                 <div class="log" style="margin-top: 8px;">
-                    <a href="" >
+                    <a href="">
                         <img src="https://bietthunhaphodep.com/wp-content/uploads/2022/04/nhung-mau-biet-thu-nha-vuon-dep-nhat-370x270.jpg" alt="" width="100%" height="400px">
                     </a>
                 </div>
@@ -357,7 +357,9 @@
         </div>
 
         <div class="view-more">
-            <a href="" style="text-decoration: none"><h1 class="sp text-center" >XEM TẤT CẢ</h1></a>
+            <a href="" style="text-decoration: none">
+                <h1 class="sp text-center">XEM TẤT CẢ</h1>
+            </a>
         </div>
     </div>
 
